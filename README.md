@@ -16,3 +16,10 @@ Constraints:
 5. When a player lands on a cell with a slider head, they move their position backward to the tail of the slider. Conversely, when they land on a cell with a ladder's base, they will move their position forward to the top of the ladder.
 6. The player will be declared as the winner when they reach position 25 and the game will be stopped.
 7. If the player's position exceeds 25 after rolling the dice, they will remain idle in their current position.
+Note:
+If no one won the game, print as "Game tie" after printing the players name, position and all. For
+example,
+John|21|4|1|1
+Nick|20|5|1|2
+Game tie
+Please check the board for sliders and ladders
